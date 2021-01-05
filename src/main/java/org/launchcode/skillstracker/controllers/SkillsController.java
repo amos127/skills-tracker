@@ -54,7 +54,7 @@ public class SkillsController {
     }
 
     @PostMapping("skills")
-    public static String createMessage(@RequestParam String name, @RequestParam String languageOne, @RequestParam String languageTwo, @RequestParam String languageThree) {
+    public static String listSkills(@RequestParam String name, @RequestParam String languageOne, @RequestParam String languageTwo, @RequestParam String languageThree) {
         return "<html>" +
                 "<body>" +
                 "<h1>" + name + "</h1>" +
